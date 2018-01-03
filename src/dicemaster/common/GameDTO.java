@@ -1,11 +1,12 @@
+package dicemaster.common;
+
 import java.util.List;
 
-public class GameDTO implements DTO{
+public class GameDTO implements DTO {
     private int id;
     private GameConfigDTO gameConfig;
-    private List<Triplet<User,Dices,Integer>> players;
+    private List<UserInGame> players;
     private List<User> observers;
-    private int playerWithMove;
 
     @Override
     public void fromJSON() {

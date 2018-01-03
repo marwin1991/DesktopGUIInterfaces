@@ -1,3 +1,5 @@
+package dicemaster.common;
+
 public class Dices {
     private DiceNumbers dicesScore[];
 

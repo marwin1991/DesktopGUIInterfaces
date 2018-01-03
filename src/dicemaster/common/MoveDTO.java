@@ -1,4 +1,6 @@
-public class MoveDTO implements DTO{
+package dicemaster.common;
+
+public class MoveDTO implements DTO {
     private boolean[] dicesToReRoll;
     public MoveDTO(boolean [] dicesToReRoll){
         this.dicesToReRoll = dicesToReRoll;
